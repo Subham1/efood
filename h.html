@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<link rel="stylesheet" type="text/css" href="mystyle.css"> 
+<body>
+    <div class="my-nav pb-10">
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png" alt="Bootstrap" width="30" height="24">
+              </a>
+          <a class="navbar-brand" href="#">Foodio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">My order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#foot">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Our Officer</a></li>
+                  <li><a class="dropdown-item" href="#">Our Agents</a></li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn bg-dark text-light me-2"><a href="login.html" class="text-light text-decoration-none">login</a></button>
+              <button class="btn btn-outline-dangers" type="submit" ><a href="sign.html" class="text-light text-decoration-none">Sign up</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+        <div class="temp-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-2 col-md-3 col-xl-3 ">
+                <div class=" col-md-6 d-flex align-items-center justify-content-start " style="padding-top:10%;">
+              
+                </div>
+              </div>
+              <div class="container">
+              <div class="col-10 col-md-12 col-xl-9 col-sm-12">
+                <div class="text-centre pt-2" style="padding-left:7%;"><h1>Welcome To e-Food </h1></div>
+              </div>
+            </div>
+          </div>
+           <div class="centre pt-2"> <form class="d-flex pb-3">
+            <input class="border radius-2 me-2 rounded " type="search" placeholder=" search food item?"
+              aria-label="Search" >
+            <button class="btn btn-danger  " type="submit">Search </button>
+            </form>
+          </div>
+          </div>
+        </div>    
+        
+        <div class="row pt-1" style="padding-left: 1%;">
+          <div class="col">
+            <div class="text-bold " style="padding-left:1%;" ><h2>Food Categories</h2></div>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="class-bd ">
+                 <div class="row h-75 g-3 pt-2 mt-2">
+                  <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                       <div class="card h-100"><a href="non-veg.html"  class="text-dark text-decoration-none">
+                            <img src="https://t3.ftcdn.net/jpg/01/93/91/32/360_F_193913273_m18uxjyykl65LMtM4bC5FBHxGB14grbJ.jpg" class="card-img-top h-30" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Non-veg</h5>
+                                <p class="card-text text-bold" ><ul >
+                                  <li>Meat</li>
+                                  <li>Poultry</li>
+                                  <li>Sea Food</li>
+                                </ul></p>
+                              </div>
+                       </div>
+                      </a>
+                    </div>
+                 
+                    <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                        <div class="card h-100">
+                              <img src="https://palmbeachuk.com/wp-content/uploads/2023/03/Iconic-Vegetarian-Dishes-in-Indian-Cuisine.jpg" class="card-img-top h-30" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">veg</h5>
+                                <p class="card-text text-bold" ><ul >
+                                  <li>Veg Curry</li>
+                                  <li>Veg Rice Dishes</li>
+                                  <li>Soups</li>
+                                </ul></p>
+                              </div>
+                          </div>
+                    </div>
+          
+                    <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                          <div class="card h-100">
+                            <img src="https://www.maya.ph/hubfs/Most-Popular_Fast-Food.jpg" class="card-img-top h-30" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Fast food</h5>
+                                <p class="card-text text-bold" ><ul >
+                                  <li>Burger</li>
+                                  <li>Pizza</li>
+                                  <li>Rice Dsihes</li>
+                                </ul></p>
+                              </div>
+                          </div>
+                    </div>
+  
+                    <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                                <div class="card h-100">
+                                  <img src="https://d1ralsognjng37.cloudfront.net/caaf46d4-55c8-4d90-8b5f-064d3afa7969.jpeg" class="card-img-top h-30" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cakes</h5>
+                                    <p class="card-text text-bold" ><ul >
+                                      <li>Pastry</li>
+                                      <li>Ice cream cake</li>
+                                      <li>Fruit cake</li>
+                                  
+                                    </ul></p>
+                                  </div>
+                                </div>
+                    </div>   
+  
+  
+                    <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                              <div class="card h-100"  aria-hidden="true">
+                                <img src="https://t3.ftcdn.net/jpg/02/23/47/36/360_F_223473605_QZguR4hczOIkKmoX3YJ9uRYsrmzN5XaM.jpg" class="card-img-top h-30" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Jucice</h5>
+                                  <p class="card-text text-bold" ><ul >
+                                    <li>Tropical Fruit Juice</li>
+                                    <li>Root Vegetable Juices</li>
+                                    <li>Citrus Juices</li>
+                                  </ul></p>
+                                </div>
+                              </div>
+                    </div>
+
+
+         
+
+
+
+
+                    <div class="col col-md-4 col-xl-3 col-sm-6 col-12">
+                      <div class="card h-100"  aria-hidden="true">
+                        <img src="https://img.freepik.com/premium-photo/asian-noodles-with-prawns-vegetables-served-bowl-dark-background_1220-5659.jpg" class="card-img-top h-30" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">chinse</h5>
+                          <p class="card-text text-bold" ><ul >
+                            <li>Noodles</li>
+                            <li>Manchuries</li>
+                            <li>Hot Pot</li>
+                          </ul></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-md-4 col-xl-3 col-sm-6">
+                      <div class="card h-100"  aria-hidden="true">
+                        <img src="https://www.shutterstock.com/image-photo/coriander-kothimbir-vada-samosa-kachori-260nw-351721247.jpg" class="card-img-top h-30" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Snacks</h5>
+                          <p class="card-text text-bold" ><ul >
+                            <li>street food</li>
+                            <li>Puffs</li>
+                            <li>Non-oil food</li>
+                          </ul></p>
+                        </div>
+                      </div>
+                    </div>
+                      
+            </div>
+  
+  
+              </div>
+              </div>
+                      
+            </div>    
+         </div>
+                    
+
+                               
+
+      </div>
+        </div>
+                                  
+          </div>    
+        </div>
+         
+     
+    
+    <div class="row pt-5">
+      <div class="col-10">
+    <div class="text bold" style="padding-left:2%; padding-bottom: 2px ;"><h2>Explore nearby Resturant</h2></div>
+  </div>
+  <div class="col-2">
+    <button type="button" class="btn btn-danger btn-sm">See more >></button>
+  </div>
+    </div>
+    <div class="container mt-1 mb-5">
+     <div class="scrolling-container">
+    
+      <div class="scrolling-card bg-light p-3" style="margin-left:15px">
+        <img src="https://content.jdmagicbox.com/comp/surat/j4/0261px261.x261.170727093816.x3j4/catalogue/taste-of-bhagwati-tob--ghoddod-road-surat-north-indian-restaurants-0kw4dhdqv6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Taste of Bagwathi</h5>
+          <p class="card-text">5<span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span></p>
+          <a href="#" class="btn btn-danger">Visit</a>
+        </div>
+      </div>
+          <div class="scrolling-card bg-light p-3">
+            <img src="https://content.jdmagicbox.com/comp/indore/p9/0731px731.x731.140604173728.k1p9/catalogue/food-planet-multicuisine-restaurant-new-palasia-indore-pizza-outlets-e3rvt.jpg?clr=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Multi Crusin Redanger </h5>
+              <p class="card-text">4<span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span></p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+
+          <div class="scrolling-card bg-light p-3">
+            <img src="https://lh3.googleusercontent.com/fQccm0lJEOvJ8uB2FMUEtEWot3EPyXmkI8Wv2k-E9SceUAyOQ3v3j9X1iIHpycd6e1BvvnkB7HXCOuTvdryfSQKdD4VyscC_Wkl2-66f8g=w400-rw" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zeeshan</h5>
+              <p class="card-text">5<span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span></p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          <div class="scrolling-card bg-light p-3">
+            <img src="https://content.jdmagicbox.com/comp/visakhapatnam/v3/0891px891.x891.220611232840.p4v3/catalogue/lucky-food-court-madhurawada-visakhapatnam-food-court-m9bndosot4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TFC food court</h5>
+              <p class="card-text">3<span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span></p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          <div class="scrolling-card bg-light p-3">
+            <img src="https://content.jdmagicbox.com/comp/chennai/q5/044pxx44.xx44.180531130248.r3q5/catalogue/urban-treat-chennai-1jqlq1s1wd-250.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Urban treat</h5>
+              <p class="card-text">4<span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span><span class="yellow-star">&#9733;</span></p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          
+      
+      </div>
+    </div>
+
+    <div class="row pt-5">
+      <div class="col-10">
+    <div class="text bold" style="padding-left:2%; padding-bottom: 2px ;"><h2>Top Brand Nearby</h2></div>
+  </div>
+  <div class="col-2">
+    <button type="button" class="btn btn-danger btn-sm">See more >></button>
+  </div>
+    </div>
+    <div class="container mt-1 mb-5">
+     <div class="scrolling-container">
+    
+      <div class="scrolling-card1 bg-light p-3" style="margin-left:15px">
+        <img src="https://i.pinimg.com/originals/ac/3e/38/ac3e388c5bdce08726ece882756d14c2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">KFC</h5>
+          <p class="card-text"><i class="bi bi-alarm"></i>15min</p>
+          <a href="#" class="btn btn-danger">Visit</a>
+        </div>
+      </div>
+          <div class="scrolling-card1 bg-light p-3">
+            <img src="https://ih1.redbubble.net/image.404796989.3591/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Domino </h5>
+              <p class="card-text"><i class="bi bi-alarm"></i>10min</p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+
+          <div class="scrolling-card1 bg-light p-3">
+            <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/1088px-Pizza_Hut_logo.svg.png" class="card-img-top rounded-circle " width="50%"height="50%" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza hut</h5>
+              <p class="card-text"><i class="bi bi-alarm"></i>25min</p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          <div class="scrolling-card1 bg-light p-3">
+            <img src="data:image/png;base64,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" class="card-img-top border-radius:2rem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Haldiram</h5>
+              <p class="card-text"><i class="bi bi-alarm"></i>45min</p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          <div class="scrolling-card1 bg-light p-3">
+            <img src="https://static.vecteezy.com/system/resources/previews/013/948/540/original/mcdonald-s-logo-on-transparent-white-background-free-vector.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">McDonold</h5>
+              <p class="card-text"><i class="bi bi-alarm"></i>1hr</p>
+              <a href="#" class="btn btn-danger">Visit</a>
+            </div>
+          </div>
+          
+      
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <div class="row mt-2 pb-5" style="padding-left:32px;">
+            <div class="text-centre" ><h1>Our Services</h1></div>
+           </div>
+
+                  <div class="container ">
+                    <div class="service-bd ">
+                      <div class="row g-2  " style="padding-left:35px;">
+                        <div class="col col-md-4 col-sm-6" style="padding-left:35px;" >
+                          <div class="cards h-100" style="width: 18rem;">
+                            <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?size=626&ext=jpg&ga=GA1.1.53931986.1701362001&semt=ais" class="card-img-top" alt="...">
+                            <div class="card-body">
+                             <div class="my-text pt-4"> <h5 class="card-title">Fast delivery</h5></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col col-md-4 col-sm-6">
+                          <div class="cards h-100" style="width: 18rem;">
+                            <img src="https://img.freepik.com/free-vector/rebate-program-consumer-benefit-selling-discount-customer-reward-online-store-e-shopping-internet-shop-money-savings-cumulative-bonuses-vector-isolated-concept-metaphor-illustration_335657-2754.jpg?w=740&t=st=1701362506~exp=1701363106~hmac=d3635efec144b168e0bf08ce43270c105c9c5db30dc77968c8ddccc6794235e2" class="card-img-top" alt="...">
+                            <div class="card-body">
+                             <div class="my-text pt-4"> <h5 class="card-title">Less Commission</h5></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col col-md-4 col-sm-6 ">
+                          <div class="cards h-100" style="width: 18rem;">
+                            <img src="https://img.freepik.com/free-vector/delivery-service-with-masks-concept_23-2148535315.jpg?w=740&t=st=1701362686~exp=1701363286~hmac=8740eeeb0e1d768bd51a7b43e5216da52a09a6fa72d934c1d617aeb39b04e2e1" class="card-img-top" alt="...">
+                            <div class="card-body">
+                             <div class="my-text pt-4"> <h5 class="card-title">Zero contact</h5></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                       
+               
+                <div class="container" style="margin:auto; width:90%" >
+                  <div class="img-bd" >
+                  <div class="row w-100 ">
+                    <div class="col-12">
+                    <img src="https://www.pushengage.com/wp-content/uploads/2022/02/Best-Website-Welcome-Message-Examples.png" style="height:60%; width:100%">
+                  </div>
+                </div>
+                </div>
+                </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"> </script>
+
+
+
+              </div>
+   
+  </body>
+
+
+  <section id="foot">
+    <div class="container-fluid " style="padding-left: 0%;padding-right: 0%;">
+
+      <!-- Footer -->
+      <footer
+              class="text-center text-lg-start text-white"
+              style="background-color: #1c2331"
+              >
+        <!-- Section: Social media -->
+        <section
+                 class="d-flex justify-content-between p-4"
+                 style="background-color: #6351ce"
+                 >
+                 <div class=" me-5">
+                  <span>Get connected with us on social networks:</span>
+                </div>
+    
+          <!-- Right -->
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        
+    
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container-fluid text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Company name</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  <a href="#!" class="text-white">MDBootstrap</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">MDWordPress</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">BrandFlow</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Bootstrap Angular</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  <a href="#!" class="text-white">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div
+             class="text-center pt-4 pb-3"
+             style="background-color: rgba(0, 0, 0, 0.2)"
+             >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+             >MDBootstrap.com</a
+            >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    
+    </div>
+  </section>
+</html>
